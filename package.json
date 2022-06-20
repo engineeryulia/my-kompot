@@ -1,0 +1,24 @@
+{
+  "name": "my-kompot",
+  "version": "1.0.0",
+  "description": "my tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "pipeline": "npx cypress run --spec 'cypress/integration/client/clientPage.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/engineeryulia/my-kompot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/engineeryulia/my-kompot.git/issues"
+  },
+  "homepage": "https://github.com/engineeryulia/my-kompot.git#readme",
+  "dependencies": {
+    "cypress": "^9.6.0"
+  }
+}
